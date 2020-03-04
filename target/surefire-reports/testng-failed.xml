@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [org.onedatashare.ChromeFrontendTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="org.onedatashare.ChromeFrontendTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="SortingTestRight"/>
+          <include name="SortingTestLeft"/>
+          <include name="LoginTest"/>
+          <include name="SearchingTestLeft"/>
+          <include name="SearchingTestRight"/>
+          <include name="SingleFTPTransferLeft"/>
+          <include name="IsAdminTest"/>
+        </methods>
+      </class> <!-- org.onedatashare.ChromeFrontendTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [org.onedatashare.ChromeFrontendTest] -->
